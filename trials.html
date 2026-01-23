@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My Oppgave 113 that includes points A to F">
-    <meta name="keywords" content="HTML prova 1">
+    <meta name="keywords" content="HTML trials">
     <meta name="author" content="Emanuele Pini">
 
     <title>Trying out Oppgave 113</title>
@@ -13,6 +13,10 @@
     <script>
         function winston() {
             document.getElementById("winston").innerHTML = "Winston.";
+        }
+
+        function hiCat() {
+            document.getElementById("winstonButton").innerHTML = "'honk', he honks";
         }
     </script>
 
@@ -24,19 +28,34 @@
     <h1>My first Heading</h1>
     <h2>and this is heading 2</h2>
     <h3>and heading 3 follows</h3>
+    <h4>another heading, whose size shrinks summon after summon</h4>
+    <h2>but only if we specify which number it is: this is a header 2, after the 4th.</h2>
 
     <p>My first paragraph</p>
     <p>here is another paragraph, no real need to write p2, apparently</p>
+    <p>Another generic paragraph, BUT! this time- <br>-with a break to write in the new line</p>
     <p style="color:red;">And here is a paragraph with a different style, a red paragraph!</p>
 
     <a href="https://www.instagram.com/five_crazy_cats/">Here is a link to see Winston</a>
 
     <img src="img_1.jpg" alt="Winstony" width="100" height="130">
+    <p id="winstonButton">Say hello to Winston</p>
+    <button type="button" onclick="hiCat()">Hi winston!</button>
 
-    <p>Another generic paragraph, BUT! this time- <br>-with a break to write in the new line</p>
+    <h3>My cats names are:</h3>
+    <ul>
+        <li>Gaia</li>
+        <li>Dea</li>
+        <li>Lamù</li>
+        <li>Chloe</li>
+    </ul>
 
-    <!-- HEAD and its Consequences - a Script, for example. -->
-
+    <h3>But what are my favourite animals?</h3>
+    <ol>
+        <li>Cats</li>
+        <li>See number 1</li>
+        <li>See number 2</li>
+    </ol>
 
 
 </body>
